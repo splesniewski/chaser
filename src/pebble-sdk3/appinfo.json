@@ -1,0 +1,133 @@
+{
+    "uuid": "dbfb4dac-e5c1-4457-9760-36e79bc8e7cb",
+    "shortName": "chaser",
+    "longName": "Chaser",
+    "companyName": "Stephen Paul Lesniewski",
+    "versionLabel": "1.0",
+    "sdkVersion": "3",
+    "targetPlatforms": ["aplite","basalt"],
+    "watchapp": {
+	"watchface": true
+    },
+    "appKeys": {
+	"dummy": 0
+    },
+    "resources": {
+	"media": [
+	    {
+		"menuIcon": true,
+		"type": "bitmap", "name": "MENU_ICON", "file": "menuicon.png"
+	    },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_jare2",    "file": "bw/btm/jare2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_mati2",    "file": "bw/btm/mati2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_kaki2",    "file": "bw/btm/kaki2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_kaki1",    "file": "bw/btm/kaki1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_mati3",    "file": "bw/btm/mati3.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_sleep1",   "file": "bw/btm/sleep1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_sleep2",   "file": "bw/btm/sleep2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_awake",    "file": "bw/btm/awake.png",  "targetPlatforms":"aplite" },
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_up1",      "file": "bw/btm/up1.png",    "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_up2",      "file": "bw/btm/up2.png",    "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_down1",    "file": "bw/btm/down1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_down2",    "file": "bw/btm/down2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_left1",    "file": "bw/btm/left1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_left2",    "file": "bw/btm/left2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_right1",   "file": "bw/btm/right1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_right2",   "file": "bw/btm/right2.png", "targetPlatforms":"aplite" },
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_upleft1",  "file": "bw/btm/upleft1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_upleft2",  "file": "bw/btm/upleft2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_upright1", "file": "bw/btm/upright1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_upright2", "file": "bw/btm/upright2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_dwleft1",  "file": "bw/btm/dwleft1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_dwleft2",  "file": "bw/btm/dwleft2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_dwright1", "file": "bw/btm/dwright1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_dwright2", "file": "bw/btm/dwright2.png", "targetPlatforms":"aplite" },
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_dtogi1",   "file": "bw/btm/dtogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_dtogi2",   "file": "bw/btm/dtogi2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_ltogi1",   "file": "bw/btm/ltogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_ltogi2",   "file": "bw/btm/ltogi2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_rtogi1",   "file": "bw/btm/rtogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_rtogi2",   "file": "bw/btm/rtogi2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_utogi1",   "file": "bw/btm/utogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_BTM_utogi2",   "file": "bw/btm/utogi2.png", "targetPlatforms":"aplite" },
+
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_jare2",    "file": "bw/msk/jare2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_mati2",    "file": "bw/msk/mati2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_kaki2",    "file": "bw/msk/kaki2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_kaki1",    "file": "bw/msk/kaki1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_mati3",    "file": "bw/msk/mati3.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_sleep1",   "file": "bw/msk/sleep1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_sleep2",   "file": "bw/msk/sleep2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_awake",    "file": "bw/msk/awake.png",  "targetPlatforms":"aplite" },
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_up1",      "file": "bw/msk/up1.png",    "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_up2",      "file": "bw/msk/up2.png",    "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_down1",    "file": "bw/msk/down1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_down2",    "file": "bw/msk/down2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_left1",    "file": "bw/msk/left1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_left2",    "file": "bw/msk/left2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_right1",   "file": "bw/msk/right1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_right2",   "file": "bw/msk/right2.png", "targetPlatforms":"aplite" },
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_upleft1",  "file": "bw/msk/upleft1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_upleft2",  "file": "bw/msk/upleft2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_upright1", "file": "bw/msk/upright1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_upright2", "file": "bw/msk/upright2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_dwleft1",  "file": "bw/msk/dwleft1.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_dwleft2",  "file": "bw/msk/dwleft2.png",  "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_dwright1", "file": "bw/msk/dwright1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_dwright2", "file": "bw/msk/dwright2.png", "targetPlatforms":"aplite" },
+
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_dtogi1",   "file": "bw/msk/dtogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_dtogi2",   "file": "bw/msk/dtogi2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_ltogi1",   "file": "bw/msk/ltogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_ltogi2",   "file": "bw/msk/ltogi2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_rtogi1",   "file": "bw/msk/rtogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_rtogi2",   "file": "bw/msk/rtogi2.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_utogi1",   "file": "bw/msk/utogi1.png", "targetPlatforms":"aplite" },
+	    { "type": "bitmap", "memoryFormat": "1Bit", "name": "C_BW_MSK_utogi2",   "file": "bw/msk/utogi2.png", "targetPlatforms":"aplite" },
+
+
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_jare2",    "file": "color/btm/jare2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_mati2",    "file": "color/btm/mati2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_kaki2",    "file": "color/btm/kaki2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_kaki1",    "file": "color/btm/kaki1.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_mati3",    "file": "color/btm/mati3.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_sleep1",   "file": "color/btm/sleep1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_sleep2",   "file": "color/btm/sleep2.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_awake",    "file": "color/btm/awake.png",  "targetPlatforms":"basalt" },
+
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_up1",      "file": "color/btm/up1.png",    "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_up2",      "file": "color/btm/up2.png",    "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_down1",    "file": "color/btm/down1.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_down2",    "file": "color/btm/down2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_left1",    "file": "color/btm/left1.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_left2",    "file": "color/btm/left2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_right1",   "file": "color/btm/right1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_right2",   "file": "color/btm/right2.png", "targetPlatforms":"basalt" },
+
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_upleft1",  "file": "color/btm/upleft1.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_upleft2",  "file": "color/btm/upleft2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_upright1", "file": "color/btm/upright1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_upright2", "file": "color/btm/upright2.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_dwleft1",  "file": "color/btm/dwleft1.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_dwleft2",  "file": "color/btm/dwleft2.png",  "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_dwright1", "file": "color/btm/dwright1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_dwright2", "file": "color/btm/dwright2.png", "targetPlatforms":"basalt" },
+
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_dtogi1",   "file": "color/btm/dtogi1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_dtogi2",   "file": "color/btm/dtogi2.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_ltogi1",   "file": "color/btm/ltogi1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_ltogi2",   "file": "color/btm/ltogi2.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_rtogi1",   "file": "color/btm/rtogi1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_rtogi2",   "file": "color/btm/rtogi2.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_utogi1",   "file": "color/btm/utogi1.png", "targetPlatforms":"basalt" },
+	    { "type": "bitmap", "memoryFormat": "8bit", "name": "C_CL_BTM_utogi2",   "file": "color/btm/utogi2.png", "targetPlatforms":"basalt" }
+
+	]
+    }
+}

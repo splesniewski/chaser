@@ -1,0 +1,10 @@
+
+# Ignore build generated files
+build
+
+# Ignore waf lock file
+.lock-waf*
+resources/bw
+resources/color
+resources/menuicon.png
+pebble_colors_64.gif
