@@ -7,9 +7,9 @@ the core state machine (written in C) then use it, unchanged, in as
 many different execution environments I had at hand.
 
 - `arduino-AdafruitSSD1306/`
-    - Arduno + SSD1306/i2c + [Adafruit's SDD1306](https://github.com/adafruit/Adafruit_SSD1306) library.
+    - Arduino + SSD1306/i2c + [Adafruit's SDD1306](https://github.com/adafruit/Adafruit_SSD1306) library.
 - `arduino-u8glib/`
-    - Arduno + SSD1306/i2c + [u8glib](https://github.com/olikraus/u8glib) library.
+    - Arduino + SSD1306/i2c + [u8glib](https://github.com/olikraus/u8glib) library.
 - `c-sdl/`
     - SDL1, SDL2.  (Bonus: compiled C->Javascript via Emscripten utilizing Emscripten built-in SDL compatibility.)
 - `javacript-emscripten/`
