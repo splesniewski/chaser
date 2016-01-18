@@ -3,7 +3,7 @@ Ruby+FFI+QT::Widget
 
 Perquisites
 -----------
-- UBUNTU 15.04
+- UBUNTU 15.04, Raspbian GNU/Linux 8
     - GEMs
         - ffi
     - packages
