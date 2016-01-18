@@ -18,6 +18,8 @@ many different execution environments I had at hand.
     - luajit ffi + SDL2
 - `pebble-sdk3/`
     - Pebble Smartwatch w/SDK3 (aplite, basalt)
+- `ruby-qtwidget`
+    - Ruby + [FFI](https://github.com/ffi/ffi) + Qt4
 - `rpi-AdafruitPythonSSD1306/`
     - Raspberry Pi + SDD1306/i2c + Python FFI + [Adafruit's Python SSD1306](https://github.com/adafruit/Adafruit_Python_SSD1306)
 - `rpi-ArduiPiOLED/`
@@ -44,4 +46,4 @@ be downloaded if preferred (see `images/README.md`.)
 - Add back cursor/touch chasing (not sure how this is going to work yet with many chasers).
 - Merge chaser C stuct & C++ object.
 - add ability to specify multiple chaser image sets.
-- add propper frames/sec control rather then just a delay.
+- add proper frames/sec control rather then just a delay.
